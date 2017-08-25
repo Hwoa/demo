@@ -22,14 +22,14 @@
             <div class="form-group">
                 <label class="col-md-4 control-label">メールアドレス</label>
               <div class="col-md-6">
-                <input type="text" class="form-control" name="email" value="{{ old('email') }}" />
+                <input type="text" class="form-control" name="email" value="admin@demo.com" />
               </div>
             </div>
 
             <div class="form-group">
                 <label class="col-md-4 control-label">パスワード</label>
               <div class="col-md-6">
-                <input type="password" class="form-control" name="password" value="" />
+                <input type="password" class="form-control" name="password" value="admin" />
               </div>
             </div>
 
