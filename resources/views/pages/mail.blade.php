@@ -281,6 +281,8 @@
                     $("#btn_rescue").hide();
                     $("#sendModal").modal("hide");
                 }
+            }).fail(function(){
+                alert("メールを送信することができませんでした。");
             }).always(function(){
                 fnUnBlocking();
                 paging(1);
